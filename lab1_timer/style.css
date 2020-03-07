@@ -1,0 +1,127 @@
+.body-style {
+    width : 1220px;
+    height : 510px;
+    overflow: hidden;
+    margin: 0px;
+}
+.toolbar {
+    width : 1220px;
+    height : 70px; 
+    background: #97A5BC;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
+}
+.toolbar-font {
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+}  
+.time-font {
+    font-weight: 700;
+    font-family: PTMono-Bold, "PT Mono", monospace;
+}
+.time-area {
+    width : 960px;
+    height : 200px;
+    padding: 115px 130px 125px 130px;
+    font-size: 200px;
+    background: #F2F4F7;
+    color: #333333;
+    text-align: center;
+}
+.text-div {
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
+    border-radius: 5px;
+}
+.counted {
+    display: none;
+}
+input[type=button] {
+    width: 98px;
+    height: 40px;
+    background: #2188E9;
+    border-width: 0px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #FFFFFF;
+    ime-mode:disabled;
+}
+input[type=text] {
+    margin-bottom: 9px;
+    margin-top: 9px;
+    border-style: none;
+    display: inline-block;
+    ime-mode:disabled;
+}
+input::placeholder {
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    color: #AFAFAF;
+    font-size: 16px;
+}
+.time-input {
+    /* padding-left: 9px; */
+    margin-left: 9px;
+    height: 22px;
+    width: 20px;
+}
+.unit {
+    display: inline-block;
+    width: 32px;
+    height: 22px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #222222;
+}
+#hour-div {
+    margin: 15px 0px 15px 40px;
+}
+#minute-div {
+    margin: 15px 0px 15px 20px;
+}
+#second-div {
+    margin: 15px 0px 15px 20px;
+}
+#hint {
+    padding: 24px 0px 24px 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 22px;
+    width: 192px;
+    /* display: inline-block; */
+    display: none;
+}
+#countup {
+    margin: 15px 0px 15px 20px;
+    /* display: none; */
+}
+#countdown {
+    margin: 15px 0px 15px 20px;
+    /* display: none; */
+}
+#resume {
+    display: none;
+    /* display: inline-block; */
+}
+#pause {
+    display: none;
+}
+#clear {
+    /* margin: 15px 0px 15px 639px; */
+    background-color: #DD2E1D;
+    position: absolute;
+    top: 15px;
+    left: 964px;
+}
+#restart {
+    /* margin: 15px 0px 15px 20px; */
+    background-color: #FFB020;
+    position: absolute;
+    top: 15px;
+    left: 1082px;
+}
